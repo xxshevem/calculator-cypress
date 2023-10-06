@@ -17,7 +17,7 @@ describe('Conversion Calculator', () => {
         //Select the desired unit to convert the length to 
         cy.get('[name="calTo"]').select('Centimeter')
        
-        //Enter a value in the left column to generate the resulting conversion
+        //Enter a value to generate the resulting conversion
         cy.get('[name="fromVal"]').type('10')
 
         //Check the result
@@ -33,7 +33,7 @@ describe('Conversion Calculator', () => {
             .contains('Temperature')
             .click()
 
-        //Enter a value in the left column to generate the resulting conversion
+        //Enter a value to generate the resulting conversion
         cy.get('[name="fromVal"]').type('!"№%:,.;()_)(;.')
 
         //Check the message
