@@ -17,7 +17,7 @@
 - Run `npm install cypress —save-dev —force` in terminal to install cypress
 - Open one more terminal and run `npx cypress open` - Cypress opened
 - Select E2E Testing, browser => Electron
-- Run the tests
+- Run the tests ==> `cypress/e2e/calculator.js`  
 
 ### Scenarios:
 #### TC1:
